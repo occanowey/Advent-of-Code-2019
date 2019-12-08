@@ -5,7 +5,8 @@ use std::io::ErrorKind;
 mod day1;
 
 fn main() -> Result<(), String> {
-    day1::main()
+    // day1::part1()
+    day1::part2()
 }
 
 fn load_input() -> Result<String, String> {
